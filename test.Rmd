@@ -23,7 +23,7 @@ You can also embed plots, for example:
 ```{r pressure, echo=FALSE}
 library(tidyverse)
 data("mtcars")
-ggplot(mtcars) + geom_point(aes(cyl,disp))
+ggplot(mtcars) + geom_line(aes(cyl,disp))
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
