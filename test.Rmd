@@ -22,8 +22,8 @@ You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
 library(tidyverse)
-data("mtcars")
-ggplot(mtcars) + geom_line(aes(cyl,disp))
+data("mpg")
+ggplot(mpg) + geom_point(aes(drv,displ))
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
